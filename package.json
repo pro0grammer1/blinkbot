@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot-dashboard-tutorial",
+  "version": "1.0.0",
+  "description": "Blinka Bot official",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Abbas Nadir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord-tictactoe": "^2.1.0",
+    "discord.js": "^12.1.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "memorystore": "^1.6.2",
+    "mongoose": "^5.12.3",
+    "node-fetch": "^2.6.1",
+    "passport": "^0.4.1",
+    "passport-discord": "^0.1.3"
+  }
+}

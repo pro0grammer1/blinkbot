@@ -1,0 +1,14 @@
+require("../../scripts/ExtendedMessage");
+const { Client, MessageEmbed } = require('discord.js');
+const Discord = require("discord.js");
+
+module.exports = {
+	name: '',
+	description: '',
+	aliases: ['', ''],
+  cooldown: '',
+  argsreason: '',
+	execute(message, args, client) {
+   //........
+  },
+};

@@ -1,0 +1,21 @@
+<%- include("partials/header", { bot, user, path, title: `Settings | ${guild.name}` }) %>
+
+<div class="container-sm center" style="margin-top: 30px;">
+  <div class="d-grid gap-2 col-4 mx-auto">
+    <% if (alert) { %>
+      <div class="alert alert-success" role="alert">
+        <%= alert %>
+      </div>
+    <% } %>
+    <h1 style="color:white;"><%= guild.name %></h1>
+    <hr>
+    <form method="POST">
+      <p class="h5 white" style="margin-bottom: 0.5rem; margin-top: 10px; colour:white;">Prefix:</p>
+      <p style="font-style: italic; colour:white;" class="disabled white">The bot prefix.</p>
+      <input type="text" class="form-control" name="prefix" value="<%= settings.prefix %>" placeholder="Type Prefix.">
+      <br><button type="submit" class="btn btn-secondary">Save Settings</button>
+    </form>
+  </div>
+</div>
+
+<%- include("partials/footer") %>

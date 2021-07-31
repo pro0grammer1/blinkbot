@@ -1,8 +1,8 @@
 module.exports = {
-  "token": (process.env.TOKEN), // https://discordapp.com/developers/applications/ID/bot
-  "mongodbUrl": (process.env.MONGO), // Mongodb connection url.
-  "id": (process.env.ID), // https://discordapp.com/developers/applications/ID/information
-  "clientSecret": (process.env.CSECRET), // https://discordapp.com/developers/applications/ID/information
+  "token": "ODAzMjEwNTczNzU1MDU2MTg4.YA6eIw.JNm9On0iL4eAn83lk4cqo-GmaS0", // https://discordapp.com/developers/applications/ID/bot
+  "mongodbUrl": "", // Mongodb connection url.
+  "id": "803210573755056188", // https://discordapp.com/developers/applications/ID/information
+  "clientSecret": "Rt1roEah45GQacXReAX3CGGSqg0eSFR_", // https://discordapp.com/developers/applications/ID/information
   "owner": ["707278485122449439", "798490930180522005"],
   "domain": "https://blinkbot.ml",
   "port": 8080,

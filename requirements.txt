@@ -1,2 +1,4 @@
 discord.js
 fetch
+discord-tictactoe
+mongoose
